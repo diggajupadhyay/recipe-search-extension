@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Recipe Search",
+    "version": "1.0",
+    "description": "Search for recipes from various websites",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "https://*.foodnetwork.com/*",
+        "https://*.natashaskitchen.com/*"
+    ]
+}
